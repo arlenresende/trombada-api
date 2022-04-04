@@ -1,0 +1,31 @@
+{
+  "name": "trombada-api",
+  "version": "1.0.0",
+  "description": "Api for app Trombada",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.9",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js localhost:9000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arlenresende/trombada-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arlenresende/trombada-api/issues"
+  },
+  "homepage": "https://github.com/arlenresende/trombada-api#readme"
+}

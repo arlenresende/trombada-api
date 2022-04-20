@@ -15,27 +15,18 @@ const Pet = mongoose.model(
       },
       weight: {
         type: Number,
-        required: true,
       },
       color: {
         type: String,
-        required: true,
       },
       breed: {
         type: String,
-        required: true,
       },
       images: {
         type: Array,
-        required: true,
       },
 
       user: Object,
-      medicines: Object,
-      bathTime: Object,
-      tourTtime: Object,
-      eatingTime: Object,
-      notes: Object,
     },
     { timestamps: true }
   )

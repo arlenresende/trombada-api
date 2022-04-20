@@ -22,8 +22,8 @@ const Pet = mongoose.model(
       breed: {
         type: String,
       },
-      images: {
-        type: Array,
+      image: {
+        type: String,
       },
 
       user: Object,

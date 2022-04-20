@@ -1,4 +1,4 @@
-# Trombada AAplication API - ( Node + Express + Mongo + Swagger )
+# Trombada Aplication API - ( Node + Express + Mongo + Swagger )
 
 This application was created using Node + Express communicating with MongoDB, in addition, Node Swagger JSDoc and Swagger UI Express were used to automatically generate OpenAPI documentation.
 
